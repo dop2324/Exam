@@ -1,0 +1,80 @@
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div,input,textarea{
+    box-sizing: border-box;
+}
+input[type=email]{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 217, 217);
+    width: 100%;
+
+}
+input[type=text]{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 217, 217);
+    width: 100%;
+
+}
+textarea{
+    border-radius: 5px;
+    border: 1px solid rgb(218, 217, 217);
+    width: 100%;
+}
+.con-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.651); 
+                                /* rgba를 통하여 투명도 있는 검은색을 만들 수 있다. */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .contact{
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40%;
+    max-width: 600px;
+    padding: 50px;
+} */
+
+.contact{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 30px 50px;
+    width: 30%;
+    max-width: 600px;
+    justify-content: center;
+    
+}
+.con-footer{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=submit]{
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: darkorange;
+    color: white;
+    font-size: 18px;
+    margin-left: auto;
+    display: block;
+}
