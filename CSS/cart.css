@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.list-table td,.list-table th{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: white;
+    vertical-align: middle;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+.list-bg{
+    background-color: #60a3bc;
+    margin: auto;
+}
+.list-wrap{
+    width:60%;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+.font-DarkBlue{
+    font-weight: bold;
+    
+    color:#0c2461;
+}
+/* font-family: 'Nanum Gothic', sans-serif; */
+button{
+    width:200px;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    background-color: #0c2461;
+    color:white;
+    font-size: 12px;
+    margin-left: auto;
+    display: block;
+    /* cursor:pointer --> a 태그 처럼 pointer가 반응한다. */
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkorange;
+}
+button:active{
+    background-color: brown;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.list-footer{
+    padding-top:15px;
+}
+.custom-link:link{
+    color:black
+}
+.custom-link:visited{
+    color: #0c2461;
+}
+.custom-link{
+    text-decoration: none;
+}
+
+
+

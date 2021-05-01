@@ -1,0 +1,31 @@
+header{
+    width: auto;
+    height: 20vh;
+    background-color: #3498db;
+    border-radius: 8px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px ;
+    margin-top: 20px ;
+    
+}
+nav{
+    width: 17%;
+    height: 100vh;
+    background-color: #2ecc71;
+    border-radius: 10px;
+}
+main{
+    width:77%;
+    height: 100vh;
+    background-color: violet;
+    border-radius: 10px;
+}
+footer{
+    width: auto;
+    height: 20vh;
+    background-color: thistle;
+    border-radius: 10px;
+}
