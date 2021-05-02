@@ -4,6 +4,30 @@ label{
     margin-bottom: 10px;
 }
 
+.contact-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cancel{
+    width: 100%;
+    font-size: 60px;
+    text-align: end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
 div,input,textarea{
     box-sizing: border-box;
 }
@@ -58,7 +82,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 20px 50px 30px 50px;
-    width: 30%;
+    width: 100%;
     max-width: 600px;
     justify-content: center;
     

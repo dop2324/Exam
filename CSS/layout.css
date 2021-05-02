@@ -11,9 +11,12 @@
     width: auto;
     background-color: white;
     border-bottom: 3px solid #ccc;
+    position: sticky;
+    top:0;
+    z-index: 100;
 }
 
-.head-nav p {
+.head-nav {
     font-size: 20px;
     font-weight: 600;
 }
