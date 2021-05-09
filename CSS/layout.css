@@ -58,7 +58,7 @@
 }
 
 
-.head-content {
+.head-content-wrap {
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,6 @@ a:hover {
 }
 
 .profile {
-    margin-left: auto;
     background-color: black;
     border-radius: 50%;
     width: 70px;
@@ -84,11 +83,6 @@ a:hover {
     padding: 20px;
     cursor: pointer;
 }
-
-
-
-
-
 
 div,
 input,
@@ -136,10 +130,14 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     background-color: white;
     border: none;
+    border-radius: 5px;
 }
 
 .main-btn a {
     text-decoration: none;
+}
+a::before{
+    color:black;
 }
 
 .main-btn a:visited {
