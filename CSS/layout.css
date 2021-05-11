@@ -7,7 +7,7 @@
     color: black;
     font-size: 20px;
     font-weight: 400;
-    justify-content: space-around;
+    justify-content: space-between;
     width: auto;
     background-color: white;
     border-bottom: 3px solid #ccc;
@@ -283,6 +283,85 @@ i{
     padding:30%;
     font-size: 30px;
 }
+
+.ani-test{
+    text-align: center;
+    font-size: 30px;
+    /* transform: rotate(630deg); */
+    /* retate 돌리는 */
+    /* transform: translate(30px, 50px); */
+    /* transform: translateX(50px); */
+    /* transform:  scale(1.5); */
+}
+.ani-test:hover{
+    animation-name: test;
+    animation-duration: 1s;
+}
+@keyframes test {
+    0%{
+        transform: translateX(0px)
+    }
+    50%{
+        transform: translateX(-100px)
+    }
+    75%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.ani-test2{
+    text-align: center;
+}
+
+.shake-btn{
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    border:none;
+    font-size: 20px;
+    background-color: skyblue;
+    color: whitesmoke;
+}
+.shake-btn:hover{
+    animation-name: shake;
+    animation-duration: 0.5s;
+}
+
+
+.head-nav:hover{
+    width: 300px;
+    background: black;
+    color: whitesmoke;
+    height: 100%;
+    padding:25px;
+    position: fixed;
+    z-index:5;
+    transition: all 1s;
+    left:0px;
+    top:0px;
+}
+
+
+
+@keyframes shake {
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    75%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 
 
 
