@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.grey-box{
+    background: grey; 
+    height: 220vh;
+    margin-top: 600px;
+    margin-bottom: 600px;
+   
+}
+.sticky{
+    position: sticky;
+    top:100px;
+    float: right;
+    /* margin-left: 80%; */
+}
+h4{
+    display: inline;
+    float: left;
+    color: whitesmoke;
+    padding: 20px;
+}

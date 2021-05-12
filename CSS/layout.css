@@ -65,8 +65,11 @@
     font-weight: bold;
     width: 40%;
 }
-
+.head-grow{
+    flex-grow: 0.7;
+}
 .head-content a {
+    padding-left: 30px;
     text-decoration: none;
     color: rgba(128, 128, 128, 0.705);
 }
@@ -160,53 +163,7 @@ a::before{
     top: -50px;
 }
 
-.form-wrap {
-    margin-top: 150px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.651);
-    padding: 30px;
-    margin-bottom: 400px;
-}
 
-.form-white {
-    width: 90%;
-    max-width: 700px;
-    padding: 20px;
-    background-color: white;
-    margin: auto;
-}
-
-.form-half {
-    width: 50%;
-    float: left;
-    padding: 10px;
-    margin: 0;
-}
-
-.form-container {
-    padding: 10px;
-}
-
-.form-input {
-    width: 100%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding: 15px;
-    font-size: 15px;
-}
-
-.form-submit {
-    width: 200px;
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    background-color: darkorange;
-    color: white;
-    font-size: 18px;
-    margin-left: auto;
-    display: block;
-    margin-right: 10px;
-}
 
 p {
     transform: rotate(0.03deg);
@@ -284,52 +241,7 @@ i{
     font-size: 30px;
 }
 
-.ani-test{
-    text-align: center;
-    font-size: 30px;
-    /* transform: rotate(630deg); */
-    /* retate 돌리는 */
-    /* transform: translate(30px, 50px); */
-    /* transform: translateX(50px); */
-    /* transform:  scale(1.5); */
-}
-.ani-test:hover{
-    animation-name: test;
-    animation-duration: 1s;
-}
-@keyframes test {
-    0%{
-        transform: translateX(0px)
-    }
-    50%{
-        transform: translateX(-100px)
-    }
-    75%{
-        transform: translateX(100px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
 
-.ani-test2{
-    text-align: center;
-}
-
-.shake-btn{
-    padding: 20px;
-    width: 200px;
-    height: 100px;
-    border-radius: 5px;
-    border:none;
-    font-size: 20px;
-    background-color: skyblue;
-    color: whitesmoke;
-}
-.shake-btn:hover{
-    animation-name: shake;
-    animation-duration: 0.5s;
-}
 
 
 .head-nav:hover{
@@ -347,20 +259,7 @@ i{
 
 
 
-@keyframes shake {
-    0%{
-        transform: rotate(10deg);
-    }
-    50%{
-        transform: rotate(-10deg);
-    }
-    75%{
-        transform: rotate(10deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
-}
+
 
 
 
@@ -371,6 +270,12 @@ i{
                 /* breakpoint */
                 
     /* 위의 조건일 때만  아래의 css 동작함 */
+    .head-content-wrap{
+        font-size: 10px;
+    }
+    .head-grow{
+        flex-grow: 0;
+    }
     .main-title-box{
         font-size: 10px;
     }

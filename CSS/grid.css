@@ -51,6 +51,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    padding: 100px;
+    max-width: 600px;
+    margin: auto;
 }
 img{
     width: 100%;
@@ -65,7 +68,7 @@ img{
     .grid-container2{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
     }
     .grid-img{
         grid-column: 1;
