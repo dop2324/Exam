@@ -242,19 +242,24 @@ i{
 }
 
 
+.span-nav-1{
+    /* margin-left: 200px; */
+    z-index: 10;
+}
 
-
-.head-nav:hover{
+.head-nav-content{
     width: 300px;
-    background: black;
+    background: rgba(0, 0, 0, 0.507);
     color: whitesmoke;
-    height: 100%;
+    height:100%;
     padding:25px;
     position: fixed;
     z-index:5;
     transition: all 1s;
     left:0px;
     top:0px;
+    display: none;
+    
 }
 
 

@@ -14,11 +14,14 @@
     <header class="head">
         <div class="head-nav">
             <a class="menu-trigger" href="#">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="span-nav"></span>
+                <span class="span-nav"></span>
+                <span class="span-nav"></span>
             </a>
             
+        </div>
+        <div class="head-nav-content">
+
         </div>
         <div class="head-grow"></div>
         <div class="head-content-wrap">
@@ -123,6 +126,22 @@
 </div>
 
 
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $('.head-nav').on('click',function(){
+        $('.head-nav-content').fadeIn();
+        $('.span-nav').addClass('span-nav-1');
+        $('.span-nav').css('background','white');
+    })
+    $('.head-nav-content').on('click',function(){
+        $('.head-nav-content').fadeOut();
+        $('.span-nav').css('background','black');
+        $('.span-nav').removeClass('span-nav-1');
+    })
+
+</script>
 </body>
 
 </html>
