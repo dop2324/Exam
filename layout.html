@@ -77,23 +77,23 @@
     <div class="product-item">
         <div style="position: relative">
             <div class="overlay">
-             <p>Mountain</p>       </div>
-            <img src="IMG/travel1.jpg">
+             <p>Study</p>       </div>
+            <img src="IMG/study.jpg">
         </div>
         
     </div>
     <div class="product-item">
         <div style="position: relative;">
             <div class="overlay">
-                <p>City</p>       </div>
-                <img src="IMG/travel2.jpg"></div>
+                <p>Diet</p>       </div>
+                <img src="IMG/diet2.jpg"></div>
         </div>
         
     <div class="product-item">
         <div style="position: relative;">
             <div class="overlay">
-                <p>Ocean</p>       </div>
-                <img src="IMG/travel3.jpg"></div>
+                <p>Other</p>       </div>
+                <img src="IMG/other.jpg"></div>
        </div>
     <div style="clear: both"></div>
 </div>
@@ -130,17 +130,23 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
-    $('.head-nav').on('click',function(){
-        $('.head-nav-content').fadeIn();
-        $('.span-nav').addClass('span-nav-1');
-        $('.span-nav').css('background','white');
-    })
-    $('.head-nav-content').on('click',function(){
-        $('.head-nav-content').fadeOut();
-        $('.span-nav').css('background','black');
-        $('.span-nav').removeClass('span-nav-1');
-    })
+    // $('.head-nav').on('click',function(){
+    //     $('.head-nav-content').fadeIn();
+    //     $('.span-nav').addClass('span-nav-1');
+    //     $('.span-nav').css('background','white');
+    // })
+    // $('.head-nav-content').on('click',function(){
+    //     $('.head-nav-content').fadeOut();
+    //     $('.span-nav').css('background','black');
+    //     $('.span-nav').removeClass('span-nav-1');
+    // })
 
+        $('.head-nav').click(function(){ 
+            $('.head-nav').animate({ marginLeft : '100px'});
+            $('.head-nav-content').animate({ marginLeft : '0px' , left : '0px'})
+            $('.span-nav').css('background','white');
+            $('.span-nav').addClass('span-nav-1');
+        });
 </script>
 </body>
 

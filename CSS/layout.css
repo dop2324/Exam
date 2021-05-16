@@ -243,7 +243,7 @@ i{
 
 
 .span-nav-1{
-    /* margin-left: 200px; */
+    margin-left: 90px;
     z-index: 10;
 }
 
@@ -254,12 +254,12 @@ i{
     height:100%;
     padding:25px;
     position: fixed;
-    z-index:5;
-    transition: all 1s;
-    left:0px;
+    margin-left: -400px;
     top:0px;
-    display: none;
-    
+    /* z-index:5;
+    transition: all 1s; */
+    /* left:0px;
+    display: none; */
 }
 
 
